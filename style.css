@@ -1,0 +1,151 @@
+
+body{
+    font-family: 'Indie Flower', cursive;
+    
+}
+header{
+    
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+header:hover{
+    box-shadow: 5px 5px 15px 5px #000000;
+    transition: all .6s;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 30px;
+}
+ul li a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #3e3e3e;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5px;
+    
+}
+li a::after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0;
+    background-color:black;
+    transition: all .6s;
+}
+li a:hover::after{
+    width: 100%;
+    
+}
+.appointment-btn{
+    
+    background: black;
+    color: white;
+    outline: none;
+    border-radius: 11px;
+    padding:0;
+    float: right;
+    
+    
+}
+main{
+   
+    display: flex;
+    border: 1px solid black;
+    height:500px;
+    align-items: center;
+    justify-content: center;
+    
+}
+main:hover{
+    box-shadow: 5px 5px 15px 5px #000000;
+    transition: all .6s;
+}
+.content-left{
+    width: 30%;
+    
+}
+
+main h1{
+    font-size: 40px;
+}
+main p{
+    font-size: 25px;
+    color: #1d180e;
+    letter-spacing: 3px;
+}
+.cta{
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    margin-left: 25%;
+    color: white;
+    
+}
+.cta:hover{
+    background-color: rgba(23, 32, 36, 0.726);
+    transition: all .6s;
+
+}
+.logo{
+    width: 150px;
+}
+.logo:hover{
+    
+    transition: all .6s ease;
+}
+.section{
+    width: 100%;
+    border: 1px solid black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.img{
+    width:350px;
+}
+.pret{
+    max-width: 700px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.section:hover{
+    box-shadow: 5px 5px 15px 5px #000000;
+    transition: all .6s;
+}
+.grecia{
+    width: 100%;
+    border: 1px solid black;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.grecia p{
+    max-width: 600px;
+}
+.grecia:hover{
+    box-shadow: 5px 5px 15px 5px #000000;
+    transition: all .6s;
+}
+h2{
+    margin-bottom: 10px;
+}
+.appointment-btn::after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0;
+    background-color:red;
+    transition: all .6s;
+}
